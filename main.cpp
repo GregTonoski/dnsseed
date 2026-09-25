@@ -220,7 +220,7 @@ public:
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_P2P_V2); // xc08
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_P2P_V2 | NODE_COMPACT_FILTERS); // xc48
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_BLOOM); // x40c
-        filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_BLAKE2B)
+        filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_BLAKE2B);
     }
     if (host != NULL && ns == NULL) showHelp = true;
     if (showHelp) fprintf(stderr, help, argv[0]);
