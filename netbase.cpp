@@ -7,10 +7,10 @@
 #include "util.h"
 
 #ifndef WIN32
-#include <fcntl.h>
+#include <sys/fcntl.h>
 #endif
 
-#include "fortify/string.h"
+#include "strlcpy"
 #include <boost/algorithm/string/case_conv.hpp> // for to_lower()
 
 #define printf my_printf
