@@ -212,7 +212,7 @@ public:
         filter_whitelist.insert(NODE_NETWORK | NODE_WITNESS | NODE_P2P_V2); // x809
         filter_whitelist.insert(NODE_NETWORK | NODE_WITNESS | NODE_P2P_V2 | NODE_COMPACT_FILTERS); //x849
         filter_whitelist.insert(NODE_NETWORK | NODE_WITNESS | NODE_BLOOM); // xd
-        filter_whitelist.insert(NODE_NETWORK | NODE_WITNESS | NODE_BLAKE2B);
+        filter_whitelist.insert(NODE_NETWORK | NODE_WITNESS | NODE_BLAKE2B); // 0x10000009
         filter_whitelist.insert(NODE_NETWORK_LIMITED); // x400
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_BLOOM); // x404
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS); // x408
@@ -220,7 +220,7 @@ public:
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_P2P_V2); // xc08
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_P2P_V2 | NODE_COMPACT_FILTERS); // xc48
         filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_BLOOM); // x40c
-        filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_BLAKE2B);
+        filter_whitelist.insert(NODE_NETWORK_LIMITED | NODE_WITNESS | NODE_BLAKE2B); // 0x1000040
     }
     if (host != NULL && ns == NULL) showHelp = true;
     if (showHelp) fprintf(stderr, help, argv[0]);
