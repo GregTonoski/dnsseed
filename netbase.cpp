@@ -10,7 +10,7 @@
 #include <sys/fcntl.h>
 #endif
 
-#include "strlcpy"
+#include "strlcpy.h"
 #include <boost/algorithm/string/case_conv.hpp> // for to_lower()
 
 #define printf my_printf
